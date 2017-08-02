@@ -1,7 +1,7 @@
 // Display a message
 
 // Generally speaking, a preprocessor is a program that make changes to your main program before it goes to the processor.
-// There is a form of C++ processor which works by translating C++ codes to C. Since it make changes to the codes before it goes to the processor, by definition, it is also a kind of preprocessor.
+// There is a form of C++ processor which works by translating C++ codes to C. Since it makes changes to the codes before it goes to the processor, by definition, it is also a kind of preprocessor.
 
 // Typically, the preprocessor in C++ deals with the codes start with #, such as "#include <iostream>".
 // "#include <iostream>" would add the contents in the file "iostream" along with the contents of our file (the codes)
