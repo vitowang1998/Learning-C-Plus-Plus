@@ -13,6 +13,14 @@ void testFunction(int& a, int&b)
     a = b = 1;
 }
 
+
+void testFunction2(const int& c)
+{
+    // Won't compile since c is a constant reference
+    c = 1;
+}
+
+
 int main()
 {
     // Declaration statement
@@ -58,15 +66,34 @@ int main()
     
     // When the variables are in different scopes (functions), reference can be extremely useful and effecient.
     // Before we know reference, we usually declare local variables in functions.
-    // With reference, we can modify global variable in functions.
+    // With reference, we can modify global variables in functions.
     
     
     
     
     
     
-    // When a function expects strict reference type, we cannot
+    // When a function expects strict reference type, a L-value must be passed in.
+    // L-value: a value that points to a memory location, such as a variable or a reference.
     
+    
+    // Will work since "var1" and "var2" are L-values.
+    testFunction(var1, var2);
+    
+    // Won't compile since "var1 * 2" is not a L-value.
+    testFunction(var1 * 2, var2);
+    
+    // Won't comiler since "15" is not a L-value.
+    testFunction(var1, 15);
+    
+    
+    // Constant Reference Parameter
+    // Format: const type + & + name
+    testFunction2(var2);
+    
+    // Since the parameter is a constant reference, it is leagl to pass in a R-value.
+    testFunction2(15);
+    testFunction2(var2 + 1);
     
     
     return 0;
