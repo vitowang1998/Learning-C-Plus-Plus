@@ -1,15 +1,15 @@
 # Variables and References
-This file mainly discusses variables and references and the ways of declaring them. When we declare a variable by giving a definition, the comiler would automatically creates variable and allocate memory space for this very variable.
+This file mainly discusses variables and references and the ways of declaring them. When we declare a variable by giving a definition, the comiler would automatically create this variable and allocate memory space for it.
 
 When we assign a value to this variable by using the assignment operator (=), the compiler would assign the value to the memory location represented by the variable.
 
-This file also talks about the syntax of applying the ideas of variables and references. For instance, if a fucntion requires a reference parameter, then the parameter has to be a L-value.
+This file also elaborates the syntax of applying the ideas of variables and references. For instance, if a fucntion requires a reference parameter, then the parameter has to be a L-value.
 
 
 
 
 # References
-This file particularly talks about references and its pros and cons. References are more efficient since they points to an existing memory location. However, it is also error-provoking since it will modify global variables in smaller scopes, mostly functions.
+This file particularly talks about references and its pros and cons. References are more efficient since they point to an existing memory location. However, it is also error-provoking since it will modify global variables in smaller scopes, mostly functions.
 
 
 
