@@ -9,3 +9,5 @@
 // cp file1 file2 - make a copy of file1 and name it file2
 // rm file - remove file
 // cat a - display the contents in a
+
+// gcc file - complile a .c file with gcc compiler and name the output "a.out"
