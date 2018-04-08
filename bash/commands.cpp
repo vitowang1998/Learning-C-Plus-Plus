@@ -10,4 +10,8 @@
 // rm file - remove file
 // cat a - display the contents in a
 
-// gcc file - complile a .c file with gcc compiler and name the output "a.out"
+// gcc filename.c - complile a .c file with gcc compiler and name the output "a.out"
+
+// gcc a.c -o b
+// compile a.c with gcc and name the output b
+// b can have extension
