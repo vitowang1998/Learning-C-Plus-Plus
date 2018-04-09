@@ -15,3 +15,8 @@
 // gcc a.c -o b
 // compile a.c with gcc and name the output b
 // b can have extension
+
+
+// direct output to a file
+// ./file > textfile.txt
+// this will redirect the contents of output stream to textfile.txt
