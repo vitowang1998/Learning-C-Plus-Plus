@@ -20,3 +20,9 @@
 // direct output to a file
 // ./file > textfile.txt
 // this will redirect the contents of output stream to textfile.txt
+
+
+// nano [filename]
+// This command will create a new file [filename] and open it in nano text editor
+// [control + 0] - save the file
+// [control + x] - exit the editor
