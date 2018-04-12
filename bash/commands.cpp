@@ -45,6 +45,10 @@
 // b can have any extension
 
 
+// g++ a.cpp
+// This command compiles a .cpp file with g++ compilier
+
+
 // direct output to a file
 // ./file > textfile.txt
 // this will redirect the contents of output stream to textfile.txt
@@ -54,3 +58,5 @@
 // This command will create a new file [filename] and open it in nano text editor
 // [control + 0] - save the file
 // [control + x] - exit the editor
+
+
