@@ -1,5 +1,10 @@
 // code for bash
 
+
+// export
+// This command will list all the environmental variables
+
+
 // pwd - (print working directory)
 // This command yields current directory
 
