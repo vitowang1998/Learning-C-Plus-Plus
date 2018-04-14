@@ -65,3 +65,9 @@
 // [control + x] - exit the editor
 
 
+// clear
+// This command will clear the screen
+
+
+// exit
+// This command will terminate current bash session
