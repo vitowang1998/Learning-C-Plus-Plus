@@ -65,6 +65,14 @@
 // [control + x] - exit the editor
 
 
+// head [filename]
+// This command will print the first ten lines of [filename]
+
+
+// more [filename]
+// This command will display the first part of [filename]
+
+
 // clear
 // This command will clear the screen
 
