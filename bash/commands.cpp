@@ -73,6 +73,10 @@
 // This command will display the first part of [filename]
 
 
+// diff [filename1] [filename2]
+// This command will compare the contents of [filename1] and [filename2]
+
+
 // clear
 // This command will clear the screen
 
