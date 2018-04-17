@@ -1,6 +1,10 @@
 // code for bash
 
 
+// echo [string]
+// This command will display the contents of [string]
+
+
 // export
 // This command will list all the environmental variables
 
