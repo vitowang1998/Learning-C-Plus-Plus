@@ -5,6 +5,10 @@
 // This command will display the contents of [string]
 
 
+// lpr [file]
+// This command will print [file]
+
+
 // export
 // This command will list all the environmental variables
 
