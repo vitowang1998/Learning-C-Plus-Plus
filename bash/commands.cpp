@@ -85,6 +85,10 @@
 // This command will compare the contents of [filename1] and [filename2]
 
 
+// gzip [file]
+// This command will compress [file]
+
+
 // clear
 // This command will clear the screen
 
