@@ -89,6 +89,14 @@
 // This command will compress [file]
 
 
+// gunzip [file.zip]
+// This command unzips [file.zip]
+
+
+// gzcat [file.zip]
+// This command shows the content of [file.zip] without unziping it.
+
+
 // clear
 // This command will clear the screen
 
