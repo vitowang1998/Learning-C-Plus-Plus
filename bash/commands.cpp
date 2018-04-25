@@ -29,6 +29,10 @@
 // This command changes directory to the top level
 
 
+// cd ~
+// This command changes directory to the top level
+
+
 // ls - list contents
 // This command lists the contents in current directory
 
@@ -103,3 +107,5 @@
 
 // exit
 // This command will terminate current bash session
+
+
