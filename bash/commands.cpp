@@ -89,6 +89,9 @@
 // This command will compare the contents of [filename1] and [filename2]
 
 
+
+
+
 // gzip [file]
 // This command will compress [file]
 
@@ -99,6 +102,14 @@
 
 // gzcat [file.zip]
 // This command shows the content of [file.zip] without unziping it.
+
+
+
+
+
+// jupyter notebook
+// This command opens jupyter notebook (it needs to installed). 
+
 
 
 // clear
