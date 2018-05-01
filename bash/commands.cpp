@@ -126,8 +126,9 @@
 
 
 // direct output to a file
-// ./file > textfile.txt
+// [anything generates output] > textfile.txt
 // this will redirect the contents of output stream to textfile.txt
+// this will create [textfile.txt] if not existed.
 
 
 // nano [filename]
@@ -148,7 +149,7 @@
 // This command will compare the contents of [filename1] and [filename2]
 
 
-/* wc
+/* wc -------------------------------------------------------
  
  wc [file]
  print [count_lines count_words count_bytes filename]
@@ -164,13 +165,11 @@
  
  wc -w [file]
  print the word counts
- 
- 
- */
+ -------------------------------------------------------------*/
 
 
 
-
+// ------------------------------------------------------------
 // gzip [file]
 // This command will compress [file]
 
@@ -181,7 +180,7 @@
 
 // gzcat [file.zip]
 // This command shows the content of [file.zip] without unziping it.
-
+// ------------------------------------------------------------
 
 
 
