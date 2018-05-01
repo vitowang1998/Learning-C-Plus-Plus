@@ -16,11 +16,17 @@
 
 
 
-
+// --------------------------------------------------------------
 // echo $0
 // check which Unix Shell we are using now
 // print [bash] if we are using bash
 //       [-bash] if we aren't using bash
+
+// bash
+// set the command prompt to bash
+// --------------------------------------------------------------
+
+
 
 
 // echo [string]
