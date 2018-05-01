@@ -1,12 +1,18 @@
 // code for bash
 
-/* Special Directories
+
+
+/* Special Directories -----------------------------------------
  
  .            current directory
  ..           current directory parent
  ~            home directory
  ~userid      home directory
- */
+ -------------------------------------------------------------*/
+
+
+
+
 
 
 /* Paths
@@ -172,6 +178,8 @@
  wc -w [file]
  print the word counts
  -------------------------------------------------------------*/
+
+
 
 
 
