@@ -148,6 +148,26 @@
 // This command will compare the contents of [filename1] and [filename2]
 
 
+/* wc
+ 
+ wc [file]
+ print [count_lines count_words count_bytes filename]
+ 
+ wc -c [file]
+ print the byte counts
+ 
+ wc -m [file]
+ print the character counts
+ 
+ wc -l [file]
+ print the newline counts
+ 
+ wc -w [file]
+ print the word counts
+ 
+ 
+ */
+
 
 
 
