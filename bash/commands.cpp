@@ -14,6 +14,25 @@
 
 
 
+/* tab ---------------------------------------------------------
+   - auto complete
+ -------------------------------------------------------------*/
+
+
+
+
+
+/* man----------------------------------------------------------
+ man [command]
+ - this will yield the manual of [command]
+ ------------------------------------------------------------ */
+
+
+/* Pipe
+ [command1] [file1] | [command2]
+ - this will use the result of [command1] [file1] as the input for [command2]
+ */
+
 
 /* Paths
     Absolute Path: Starting from the root
@@ -31,6 +50,36 @@
 // bash
 // set the command prompt to bash
 // --------------------------------------------------------------
+
+
+
+/* vim ----------------------------------------------------------
+ vim [file.extension]
+ -opens [file.extension] with vim.
+ 
+ Exc
+ -Return to Normal Mode
+ 
+ hkjl
+ 
+ 
+ u
+ -undo (in Normal Mode)
+ 
+ i
+ -enter Insert Mode
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */
+
+
+
+
 
 
 
@@ -110,7 +159,27 @@
 
 // cp file1 file2 - make a copy of file1 and name it file2
 // rm file - remove file
-// cat a - display the contents in a
+
+
+/* cat ---------------------------------------------------------------------
+ cat [file]
+ -display the contents in a
+ 
+ cat -n [file]
+ -display the content of [file] and number the lines
+ -cat can open multiple files at a time, redirect method cannot
+ 
+ cat < [file]
+ -redirect the content of [file] to cat. cat will display the content of [file]
+ 
+ cat [src] > [dest]
+ -equivalent as cp [src] [dest]
+ -even if [src] does not exist, [dest] would also be created.
+ 
+ cat [src] > [dest] 2> [err]
+ -2> will redirect the error message
+ -even if no errors generated, [err] would also be created. 
+ ------------------------------------------------------------------------ */
 
 
 // rm [file]
@@ -149,7 +218,58 @@
 // [control + x] - exit the editor
 
 
-// head [filename]
+/* head ---------------------------------------------------------
+ head -n [file]
+ -this will print the first n lines of [file]
+
+ tail -n [file]
+ -this will print the last n lines of [file]
+ --------------------------------------------------------------*/
+
+
+
+
+/* head ---------------------------------------------------------
+ head -n [file]
+ this will print the first n lines of [file]
+ 
+ tail -n [file]
+ -this will print the last n lines of [file]
+ --------------------------------------------------------------*/
+
+
+
+/* egrep ---------------------------------------------------------
+ egrep [pattern] [file]
+ -prints every line in [file] which contains the [pattern]
+ -egrap is the abbr. for [Extended Global Regular Expression Print]
+ -the [pattern] is a regular expression
+ 
+ egrep "pattern1|pattern2" [file]
+ -prints every line in [file] which contains [pattern1] or [pattern2]
+ -quotation needed when special characters present
+ --------------------------------------------------------------*/
+
+
+
+
+
+/* uniq ---------------------------------------------------------
+ uniq [file]
+ -eliminates all adjacent characters in [file] and print it in [stdout]
+ -does not modify [file]
+ --------------------------------------------------------------*/
+
+
+
+/* sort ---------------------------------------------------------
+ sort [file]
+ -sorts [file] line by line
+ 
+ --------------------------------------------------------------*/
+
+
+
 // This command will print the first ten lines of [filename]
 
 
@@ -161,16 +281,13 @@
 // This command will compare the contents of [filename1] and [filename2]
 
 
-/* wc -------------------------------------------------------
+/* wc --------------------------------------------------------
  
  wc [file]
  print [count_lines count_words count_bytes filename]
  
  wc -c [file]
- print the byte counts
- 
- wc -m [file]
- print the character counts
+ print the characters counts
  
  wc -l [file]
  print the newline counts
@@ -200,7 +317,7 @@
 
 
 // jupyter notebook
-// This command opens jupyter notebook (it needs to installed). 
+// This command opens jupyter notebook (it needs to be installed).
 
 
 
