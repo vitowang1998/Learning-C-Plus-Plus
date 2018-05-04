@@ -35,7 +35,8 @@
 
 
 /* Paths
-    Absolute Path: Starting from the root
+    Absolute Path: Starting from the root. 
+                   A path start with / is an abosulte path.
     Relative Path: Not starting from the root
  */
 
