@@ -225,6 +225,9 @@
 
  tail -n [file]
  -this will print the last n lines of [file]
+ 
+ gshuf -n [number] [file]
+ -this will randomly take [number] lines from [file] and print it.
  --------------------------------------------------------------*/
 
 
