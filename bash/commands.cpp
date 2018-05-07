@@ -233,25 +233,25 @@
 
 
 
-/* head ---------------------------------------------------------
- head -n [file]
- this will print the first n lines of [file]
- 
- tail -n [file]
- -this will print the last n lines of [file]
- --------------------------------------------------------------*/
-
-
-
 /* egrep ---------------------------------------------------------
  egrep [pattern] [file]
  -prints every line in [file] which contains the [pattern]
- -egrap is the abbr. for [Extended Global Regular Expression Print]
+ -egrep is the abbr. for [Extended Global Regular Expression Print]
  -the [pattern] is a regular expression
  
  egrep "pattern1|pattern2" [file]
  -prints every line in [file] which contains [pattern1] or [pattern2]
  -quotation needed when special characters present
+ 
+ egrep  -n 【pattern】 【file】
+ -prints every line in 【file】 that contains 【pattern】, along with the line number
+ -note that n is the line number in of the entries in 【file】
+ 
+ egrep -c 【pattern】 【file】
+ -prints the number of lines containing 【pattern】 in 【file】
+ 
+ egrep -v 【pattern】 【file】
+ -prints the lines in 【file】that DO NOT contain 【pattern】
  --------------------------------------------------------------*/
 
 
@@ -270,11 +270,16 @@
  sort [file]
  -sorts [file] line by line
  
+ sort -R [file]
+ -sorts [file] randomly
+ 
+ sort -r [file]
+ -sorts [file] and print it in reverse order
+ 
  --------------------------------------------------------------*/
 
 
 
-// This command will print the first ten lines of [filename]
 
 
 // more [filename]
@@ -288,7 +293,7 @@
 /* wc --------------------------------------------------------
  
  wc [file]
- print [count_lines count_words count_bytes filename]
+ print [count_lines count_words count_chars filename]
  
  wc -c [file]
  print the characters counts
