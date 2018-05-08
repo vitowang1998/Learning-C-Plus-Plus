@@ -14,6 +14,15 @@
 
 
 
+/* touch ---------------------------------------------------------
+ touch [file.extention]
+ -create [file.extention]
+ -------------------------------------------------------------*/
+
+
+
+
+
 /* tab ---------------------------------------------------------
    - auto complete
  -------------------------------------------------------------*/
@@ -26,6 +35,16 @@
  man [command]
  - this will yield the manual of [command]
  ------------------------------------------------------------ */
+
+
+
+
+
+/* echo --------------------------------------------------------
+ echo [regular expression]
+ -print the files in current directory that have the pattern of [regular expression]
+ ------------------------------------------------------------ */
+
 
 
 /* Pipe
@@ -70,7 +89,8 @@
  i
  -enter Insert Mode
  
- 
+ dd
+ -delete a line
  
  
  
@@ -252,6 +272,9 @@
  
  egrep -v 【pattern】 【file】
  -prints the lines in 【file】that DO NOT contain 【pattern】
+ 
+ egrep -i 【pattern】 【file】
+ -prints the lines in 【file】that contain 【pattern】, case insensitive
  --------------------------------------------------------------*/
 
 
