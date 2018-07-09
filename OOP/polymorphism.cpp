@@ -46,5 +46,5 @@ int main() {
     // With *superInstance2, we can only access the field of SuperClass in the instance of SubClass
     SuperClass *superInstance2 = new SubClass{5, 6, 7, 8};
     
-
+    // Note that it can be extremely dangerous when we have an array of polymorphized objects. Hence if we want similar behavior, we should use an array of pointers, instead of actual objects.
 }
