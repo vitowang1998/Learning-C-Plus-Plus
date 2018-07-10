@@ -1,3 +1,7 @@
+// Inheritance
+
+// Single inheritance: inherit directly from ONLY ONE super class
+
 #include <iostream>
 
 using namespace std;
