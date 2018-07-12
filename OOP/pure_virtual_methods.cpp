@@ -1,4 +1,4 @@
-// Virtual
+// Pure Virtual Methods
 
 #include <iostream>
 
